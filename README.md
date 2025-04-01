@@ -6,6 +6,8 @@ A) Feature meta operations:
 1. view active and available features
 2. add features to a card
 3. accept feature T&Cs
+4. reoder features
+5. deactivate features
 
 B) Secure web features
 
