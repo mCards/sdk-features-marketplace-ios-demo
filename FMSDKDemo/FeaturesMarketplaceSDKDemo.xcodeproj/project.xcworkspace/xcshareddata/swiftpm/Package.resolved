@@ -1,0 +1,42 @@
+{
+  "originHash" : "82a9465e1eac88f706d6a571703ba43596947981fd89918490dfc0aa8f87db10",
+  "pins" : [
+    {
+      "identity" : "sdk-auth-ios-framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Wantsa/sdk-auth-ios-framework",
+      "state" : {
+        "revision" : "72a375000a2ef248731ba609c336e6a94269f9e4",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "sdk-cards-ios-framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mCards/sdk-cards-ios-framework.git",
+      "state" : {
+        "revision" : "3d0ac4c66164e76986d9dc9321e442064c0cd61a",
+        "version" : "0.0.13"
+      }
+    },
+    {
+      "identity" : "sdk-features-marketplace-ios-framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mymcard/sdk-features-marketplace-ios-framework.git",
+      "state" : {
+        "revision" : "d30b1b5d1eb1a77f7a4a24812c88c6c33bdd14b5",
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "sdk-model-ios-framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Wantsa/sdk-model-ios-framework",
+      "state" : {
+        "revision" : "ba5ab5dbd2193c860cf279d3558284f1124e37fd",
+        "version" : "0.0.4"
+      }
+    }
+  ],
+  "version" : 3
+}
