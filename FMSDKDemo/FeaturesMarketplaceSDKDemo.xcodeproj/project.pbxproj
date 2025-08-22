@@ -422,7 +422,7 @@
 			repositoryURL = "https://github.com/Wantsa/sdk-auth-ios-framework";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
+				minimumVersion = 1.0.0;
 			};
 		};
 		14F173EB2D3EE9D90039A360 /* XCRemoteSwiftPackageReference "sdk-model-ios-framework" */ = {
@@ -430,7 +430,7 @@
 			repositoryURL = "https://github.com/Wantsa/sdk-model-ios-framework";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.4;
+				minimumVersion = 1.0.0;
 			};
 		};
 		5B8579932D72A27E00794937 /* XCRemoteSwiftPackageReference "sdk-cards-ios-framework" */ = {
@@ -438,7 +438,7 @@
 			repositoryURL = "https://github.com/mCards/sdk-cards-ios-framework.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.13;
+				minimumVersion = 1.0.0;
 			};
 		};
 		5BBE85EF2D9C959700C2E25D /* XCRemoteSwiftPackageReference "sdk-features-marketplace-ios-framework" */ = {
@@ -446,7 +446,7 @@
 			repositoryURL = "https://github.com/mymcard/sdk-features-marketplace-ios-framework.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.1.1;
+				minimumVersion = 1.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
