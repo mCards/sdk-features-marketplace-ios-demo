@@ -67,7 +67,7 @@ class FeaturesMarketplaceSDKDemoVC: UIViewController, FMSDKTokenRefreshCallback,
         ///   - status: The status of the features to fetch (active / inactive)
         ///   - completion: The completion handler returning a `Result` with an array of `Feature` objects
         ///     in it's success case and an `Error` in it's failure case
-        FmSdkProvider.shared.features.getFeaturesByCard(uuid: cardId, status: "active", subscriptionLevel: nil) { result in
+        FmSdkProvider.shared.features.getFeatures(cardId: cardId, status: .active, sort: .user) { result in
             switch result {
             case .success(let features):
                 print(features)
@@ -102,7 +102,7 @@ class FeaturesMarketplaceSDKDemoVC: UIViewController, FMSDKTokenRefreshCallback,
         
         activityIndicator.startAnimating()
         
-        AuthSdkProvider.shared.login(args: loginArgs) { [weak self] result in
+        AuthSdkProvider.shared.auth0Authenticate(args: loginArgs) { [weak self] result in
             self?.activityIndicator.stopAnimating()
             
             switch result {
