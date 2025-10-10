@@ -52,15 +52,7 @@ class FeaturesMarketplaceSDKDemoVC: UIViewController, FMSDKTokenRefreshCallback,
     
     func setupFMSDK(withToken token: String, idToken: String, cardId: String) {
         let jwts = JWTs(accessToken: token, idToken: idToken)
-        
-        let fmArgs = FmArgs(
-            programID: "",
-            jwts: jwts,
-            debugMode: true,
-            tokenRefreshCallback: self,
-            loggingCallback: LoggingHandler())
-        
-        FmSdkProvider.shared.configure(args: fmArgs)
+        FmSdkProvider.shared.configure(jwts: jwts, debugMode: true, tokenRefreshCallback: self)
         /// Gets the list of features for a given card
         ///  - Parameters:
         ///   - uuid: The uuid of the card whose features are being fetched
