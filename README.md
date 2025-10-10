@@ -36,4 +36,3 @@ Implementing apps must take additional steps if using the SDK and Auth0 as a tok
 [Documentation site](https://mcards.readme.io/)
 
 [SDKs conceptual documentation](https://mcards.readme.io/docs/mcards-sdk-overview)
-Password: mCardsDevDocs
